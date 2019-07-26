@@ -1,0 +1,92 @@
+HTTrack3.49-2 launched on Fri, 26 Jul 2019 17:15:07 at http://design4dj.com/tf/groove/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://design4dj.com/tf/groove/ -O "/home/krushn/Studio/Websites/Downloads/GDC" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:15:09	Warning: 	Found for design4dj.com/robots.txt
+17:15:09	Warning: 	File has moved from design4dj.com/robots.txt to http://design4dj.com/404.html
+17:18:37	Warning: 	Found for www.tools4dj.ru/robots.txt
+17:18:37	Warning: 	File has moved from www.tools4dj.ru/robots.txt to http://design4dj.com/404.html
+17:20:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://apis.google.com/js/plusone.js
+17:21:57	Warning: 	Unexpected socket error during pre-loop
+17:21:58	Warning: 	Unexpected socket error during pre-loop
+17:21:59	Warning: 	Unexpected socket error during pre-loop
+17:22:00	Warning: 	Unexpected socket error during pre-loop
+17:22:01	Warning: 	Unexpected socket error during pre-loop
+17:22:02	Warning: 	Unexpected socket error during pre-loop
+17:22:03	Warning: 	Unexpected socket error during pre-loop
+17:22:04	Warning: 	Unexpected socket error during pre-loop
+17:22:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://webfonts.creativecloud.com/roboto:n7,n4:default.js
+17:24:20	Warning: 	Found for www.tools4dj.ru/robots.txt
+17:24:20	Warning: 	File has moved from www.tools4dj.ru/robots.txt to http://design4dj.com/404.html
+17:30:01	Warning: 	Unexpected socket error during pre-loop
+17:30:09	Warning: 	Unexpected socket error during pre-loop
+17:31:09	Warning: 	Unexpected socket error during pre-loop
+17:31:10	Warning: 	Unexpected socket error during pre-loop
+17:31:11	Warning: 	Unexpected socket error during pre-loop
+17:31:12	Warning: 	Unexpected socket error during pre-loop
+17:31:13	Warning: 	Unexpected socket error during pre-loop
+17:32:26	Warning: 	Unexpected socket error during pre-loop
+17:32:27	Warning: 	Unexpected socket error during pre-loop
+17:32:28	Warning: 	Unexpected socket error during pre-loop
+17:32:28	Warning: 	Unexpected socket error during pre-loop
+17:32:29	Warning: 	Unexpected socket error during pre-loop
+17:32:59	Error: 	Exit requested by shell or user
+17:33:00	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_026-u4015-fr3.jpg?crc=4068740477
+17:33:00	Warning: 	Retry after error -2 (Receive Time Out) at link design4dj.com/tf/groove/images/photo_01.jpg (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -2 (Receive Time Out) at link design4dj.com/tf/groove/images/photo_07.jpg (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link design4dj.com/tf/groove/images/photo_06.jpg (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link design4dj.com/tf/groove/images/prev_small_arrow.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link design4dj.com/tf/groove/images/next_small_arrow.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link design4dj.com/tf/groove/images/close_small_button.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link design4dj.com/tf/groove/images/dj_name_background_red_left.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:00	Warning: 	Retry after error -4 (No data (connection closed)) at link www.tools4dj.ru/images/presskits_041.jpg?crc=304492557 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_002.jpg?crc=64901699 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_015.jpg?crc=10572459 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_042.jpg?crc=4140971710 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_047.jpg?crc=299325106 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_050.jpg?crc=230465755 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_052.jpg?crc=56744044 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_065.jpg?crc=4165162023 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_022-u3668-fr3.jpg?crc=500397726 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:00	Warning: 	Retry after error -4 (Receive Error) at link www.tools4dj.ru/images/presskits_005-u3681-fr3.jpg?crc=63249879 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/photo_01.jpg
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/photo_01.jpg (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/photo_07.jpg
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/photo_07.jpg (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/photo_06.jpg
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/photo_06.jpg (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/prev_small_arrow.png
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/prev_small_arrow.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/next_small_arrow.png
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/next_small_arrow.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/close_small_button.png
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/close_small_button.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: design4dj.com/tf/groove/images/dj_name_background_red_left.png
+17:33:08	Error: 	"mirror stopped by user" (-1) at link design4dj.com/tf/groove/images/dj_name_background_red_left.png (from design4dj.com/tf/groove/css/index.css?3840792493)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_041.jpg?crc=304492557
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_041.jpg?crc=304492557 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_002.jpg?crc=64901699
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_002.jpg?crc=64901699 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_015.jpg?crc=10572459
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_015.jpg?crc=10572459 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_042.jpg?crc=4140971710
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_042.jpg?crc=4140971710 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_047.jpg?crc=299325106
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_047.jpg?crc=299325106 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_050.jpg?crc=230465755
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_050.jpg?crc=230465755 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_052.jpg?crc=56744044
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_052.jpg?crc=56744044 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_065.jpg?crc=4165162023
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_065.jpg?crc=4165162023 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_022-u3668-fr3.jpg?crc=500397726
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_022-u3668-fr3.jpg?crc=500397726 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+17:33:08	Warning: 	File not added due to mirror cancel: www.tools4dj.ru/images/presskits_005-u3681-fr3.jpg?crc=63249879
+17:33:08	Error: 	"mirror stopped by user" (-1) at link www.tools4dj.ru/images/presskits_005-u3681-fr3.jpg?crc=63249879 (from www.tools4dj.ru/css/press-kits.css?crc=4231948605)
+
+HTTrack Website Copier/3.49-2 mirror complete in 18 minutes 1 seconds : 389 links scanned, 358 files written (14763742 bytes overall) [13044734 bytes received at 12067 bytes/sec], 2393250 bytes transferred using HTTP compression in 43 files, ratio 13%, 4.9 requests per connection
+(18 errors, 63 warnings, 0 messages)
