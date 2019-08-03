@@ -1,0 +1,9 @@
+{
+  "name": "website-gdc",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/root-kings/website-gdc.git",
+  "author": "krushndayshmookh <krushndayshmookh@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
