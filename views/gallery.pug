@@ -249,60 +249,8 @@ html
 										li
 											a(href="#") Charity
 			//- End Sidebar Container
-			//- Main Footer
-			.main-footer.style-two
-				.anim-icons
-					span.icon.icon-twist-line-1.wow.zoomIn
-					span.icon.icon-circle-6.wow.zoomIn(data-wow-delay="400ms")
-					span.icon.icon-twist-line-2.wow.zoomIn(data-wow-delay="800ms")
-					span.icon.icon-circle-8.wow.zoomIn(data-wow-delay="1200ms")
-				.auto-container
-					.sec-title.text-center
-						span.title Get The Latest Offers
-						h2 Subscribe To Newsletter
-					//- Newsletter Form
-					.newsletter-form
-						form(method="post" action="http://sitetemplate.demo.ithemeslab.com/fizcon/blog.html")
-							.form-group
-								input(type="email" name="field-name" value="" placeholder="email@gmail.com" required="")
-								button.theme-btn.btn-style-three(type="submit") Send
-					//- Social Links
-					.social-links
-						ul
-							li
-								a(href="#")
-									span.fab.fa-facebook-f
-							li
-								a(href="#")
-									span.fab.fa-twitter
-							li
-								a(href="#")
-									span.fab.fa-dribbble
-							li
-								a(href="#")
-									span.fab.fa-instagram
-							li
-								a(href="#")
-									span.fab.fa-linkedin-in
-					//- Footer Bottom
-					.footer-bottom.clearfix
-						.copyright Copyright © 2019. All Rights Reserved.
-						ul
-							li We Accept 
-							li
-								a(href="#")
-									img(src="images/icons/cart-1.jpg" alt="")
-							li
-								a(href="#")
-									img(src="images/icons/cart-2.jpg" alt="")
-							li
-								a(href="#")
-									img(src="images/icons/cart-3.jpg" alt="")
-							li
-								a(href="#")
-									img(src="images/icons/cart-4.jpg" alt="")
-					//- Copyright
-			//- End Footer
+			include components/footer.pug
+			
 		//- End pagewrapper
 		//- Scroll to top
 		.scroll-to-top.scroll-to-target(data-target="html")
