@@ -22,47 +22,11 @@ html
 			// Preloader
 			.preloader
 			include components/header.pug
-            
+
 			// Form Back Drop
 			.form-back-drop
-			// Hidden Bar
-			section.hidden-bar
-				.inner-box
-					.cross-icon
-						span.fa.fa-times
-					.title
-						h2 Get Appointment
-					// Appointment Form
-					.appointment-form
-						form(method="post" action="http://sitetemplate.demo.ithemeslab.com/fizcon/contact.html")
-							.form-group
-								input(type="text" name="text" value="" placeholder="Name" required="")
-							.form-group
-								input(type="email" name="email" value="" placeholder="Email Address" required="")
-							.form-group
-								input(type="text" name="phone" value="" placeholder="Phone no." required="")
-							.form-group
-								textarea(placeholder="Message")
-							.form-group
-								button.theme-btn.btn-style-one(type="submit") Submit now
-					// Contact Info Box
-					.contact-info-box
-						ul.info-list
-							li
-								a.__cf_email__(href="http://sitetemplate.demo.ithemeslab.com/cdn-cgi/l/email-protection" data-cfemail="a7c4c8c9d3c6c4d3e7c1ceddc4c8c989c4c8ca") [email protected]
-							li +(123) 456 7890
-						ul.social-list.clearfix
-							li
-								a(href="#") Facebook
-							li
-								a(href="#") Linkedin
-							li
-								a(href="#") Twitter
-							li
-								a(href="#") Google +
-							li
-								a(href="#") Instagram
-			// End Hidden Bar
+			include components/hiddenbar.pug
+
 			// Page Title
 			section.page-title(style="background-image:url(images/background/2.jpg);")
 				.auto-container
