@@ -1,0 +1,822 @@
+doctype html
+html
+	// Mirrored from sitetemplate.demo.ithemeslab.com/fizcon/speakers.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Aug 2019 11:20:49 GMT
+	head
+		meta(charset="utf-8")
+		title Fizcon -  HTML Template | Speakers
+		// Stylesheets
+		link(href="css/bootstrap.css" rel="stylesheet")
+		link(href="css/style.css" rel="stylesheet")
+		link(href="css/responsive.css" rel="stylesheet")
+		link(rel="shortcut icon" href="images/favicon.png" type="image/x-icon")
+		link(rel="icon" href="images/favicon.png" type="image/x-icon")
+		// Responsive
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+		//if lt IE 9
+			script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js")
+		//if lt IE 9
+			script(src="js/respond.js")
+	body
+		.page-wrapper
+			// Preloader
+			.preloader
+			include components/header.pug
+			// Form Back Drop
+			.form-back-drop
+			// Hidden Bar
+			section.hidden-bar
+				.inner-box
+					.cross-icon
+						span.fa.fa-times
+					.title
+						h2 Get Appointment
+					// Appointment Form
+					.appointment-form
+						form(method="post" action="http://sitetemplate.demo.ithemeslab.com/fizcon/contact.html")
+							.form-group
+								input(type="text" name="text" value="" placeholder="Name" required="")
+							.form-group
+								input(type="email" name="email" value="" placeholder="Email Address" required="")
+							.form-group
+								input(type="text" name="phone" value="" placeholder="Phone no." required="")
+							.form-group
+								textarea(placeholder="Message")
+							.form-group
+								button.theme-btn.btn-style-one(type="submit") Submit now
+					// Contact Info Box
+					.contact-info-box
+						ul.info-list
+							li
+								a.__cf_email__(href="http://sitetemplate.demo.ithemeslab.com/cdn-cgi/l/email-protection" data-cfemail="62010d0c1603011622040b18010d0c4c010d0f") [email protected]
+							li +(123) 456 7890
+						ul.social-list.clearfix
+							li
+								a(href="#") Facebook
+							li
+								a(href="#") Linkedin
+							li
+								a(href="#") Twitter
+							li
+								a(href="#") Google +
+							li
+								a(href="#") Instagram
+			// End Hidden Bar
+			// Page Title
+			section.page-title(style="background-image:url(images/background/3.jpg);")
+				.auto-container
+					span.float-text Speakers
+					h1 Speakers
+					ul.bread-crumb.clearfix
+						li
+							a(href="index-2.html") Home 
+						li Speakers
+			// End Page Title
+			// Speakers Section Two
+			section.speakers-section-two.style-two.alternate
+				span.float-text Event Speaker
+				.anim-icons
+					span.icon.icon-cross-1
+					span.icon.icon-circle-12
+					span.icon.icon-circle-9
+					span.icon.icon-twist-line-3
+				.auto-container
+					.sec-title
+						h2 Event Speakers
+					.row
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-1.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_1" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+							// popup start
+							#popup_1.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_2" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Olivia Jenelia
+										span.designation General Manager
+							// popup start
+							#popup_2.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-3.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_3" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Nona Buetti
+										span.designation General Manager
+							// popup start
+							#popup_3.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-4.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_4" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Vashti Dorn
+										span.designation General Manager
+							// popup start
+							#popup_4.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-5.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_5" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Marta Kemnitz
+										span.designation General Manager
+							// popup start
+							#popup_5.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-6.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_6" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Socorro Spielman
+										span.designation General Manager
+							// popup start
+							#popup_6.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-7.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_7" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Buffy Alger
+										span.designation General Manager
+							// popup start
+							#popup_7.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+						// Feature Block
+						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-8.jpg" alt="")
+								.overlay-box
+									a.link.view-speaker.ts-image-popup(href="#popup_8" data-effect="mfp-zoom-in")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Gaynelle Guyett
+										span.designation General Manager
+							// popup start
+							#popup_8.container.ts-speaker-popup.mfp-hide
+								.row
+									.col-lg-6
+										.ts-speaker-popup-img
+											img(src="images/resource/speaker-popup.jpg" alt="")
+									// col end
+									.col-lg-6
+										.ts-speaker-popup-content
+											h3.ts-title Shaunta Deni
+											span.speakder-designation General Manager
+											p
+												| World is committed to making participation in the event a harass ment free experience
+												| for everyone, regardless of level experience gender, gender identity and expression
+											h4.session-name
+												| Sessions by David
+											.row
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+												.col-lg-6
+													.speaker-session-info
+														h4 Day 1
+														span  10.30 - 11.30 am 
+														p  Marketing Matters 
+											.ts-speakers-social
+												a(href="#")
+													i.fab.fa-facebook
+												a(href="#")
+													i.fab.fa-twitter
+												a(href="#")
+													i.fab.fa-instagram
+												a(href="#")
+													i.fab.fa-google-plus
+												a(href="#")
+													i.fab.fa-linkedin
+										// ts-speaker-popup-content end
+			// End Speakers Section
+			// Speakers Section Three
+			section.speakers-section-three
+				.anim-icons
+					span.icon.icon-cross-1
+					span.icon.icon-circle-12
+					span.icon.icon-circle-9
+					span.icon.icon-twist-line-3
+				.auto-container
+					.row
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-1.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-1.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Olivia Jenelia
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-2.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-2.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-3.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-2.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-4.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-4.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-5.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-5.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Olivia Jenelia
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-6.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-6.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-7.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-7.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+						// Speaker Block
+						.speaker-block-three.col-lg-3.col-md-6.col-sm-12.wow.zoomIn
+							.image-box
+								figure.image
+									img(src="images/resource/speaker-2-8.jpg" alt="")
+								.overlay-box
+									a.link.lightbox-image(href="images/resource/speaker-2-8.jpg" data-fancybox="speakers")
+										span.flaticon-add-1
+									.info
+										h5.name
+											a(href="#") Shaunta Deni
+										span.designation General Manager
+			// End Speakers Section Three
+			// Speakers Section Four
+			section.speakers-section-four
+				.auto-container
+					.row
+						// Speaker Block Four
+						.speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+							.inner-box
+								.image-box
+									figure.image-box
+										img(src="images/resource/speaker-3-1.jpg" alt="")
+								.info-box
+									.inner
+										h5.name
+											a(href="#") Harman Kardon
+										span.designation Founder of ceo
+										ul.social-links
+											li
+												a(href="#")
+													i.fab.fa-facebook-f
+											li
+												a(href="#")
+													i.fab.fa-twitter
+											li
+												a(href="#")
+													i.fab.fa-dribbble
+											li
+												a(href="#")
+													i.fab.fa-instagram
+						// Speaker Block Four
+						.speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+							.inner-box
+								.image-box
+									figure.image-box
+										img(src="images/resource/speaker-3-2.jpg" alt="")
+								.info-box
+									.inner
+										h5.name
+											a(href="#") Elizabeth
+										span.designation Founder of ceo
+										ul.social-links
+											li
+												a(href="#")
+													i.fab.fa-facebook-f
+											li
+												a(href="#")
+													i.fab.fa-twitter
+											li
+												a(href="#")
+													i.fab.fa-dribbble
+											li
+												a(href="#")
+													i.fab.fa-instagram
+						// Speaker Block Four
+						.speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+							.inner-box
+								.image-box
+									figure.image-box
+										img(src="images/resource/speaker-3-3.jpg" alt="")
+								.info-box
+									.inner
+										h5.name
+											a(href="#") Bernard Smith
+										span.designation Founder of ceo
+										ul.social-links
+											li
+												a(href="#")
+													i.fab.fa-facebook-f
+											li
+												a(href="#")
+													i.fab.fa-twitter
+											li
+												a(href="#")
+													i.fab.fa-dribbble
+											li
+												a(href="#")
+													i.fab.fa-instagram
+						// Speaker Block Four
+						.speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+							.inner-box
+								.image-box
+									figure.image-box
+										img(src="images/resource/speaker-3-4.jpg" alt="")
+								.info-box
+									.inner
+										h5.name
+											a(href="#") James Brown
+										span.designation Founder of ceo
+										ul.social-links
+											li
+												a(href="#")
+													i.fab.fa-facebook-f
+											li
+												a(href="#")
+													i.fab.fa-twitter
+											li
+												a(href="#")
+													i.fab.fa-dribbble
+											li
+												a(href="#")
+													i.fab.fa-instagram
+						// Speaker Block Four
+						.speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+							.inner-box
+								.image-box
+									figure.image-box
+										img(src="images/resource/speaker-3-5.jpg" alt="")
+								.info-box
+									.inner
+										h5.name
+											a(href="#") Mike Newer
+										span.designation Founder of ceo
+										ul.social-links
+											li
+												a(href="#")
+													i.fab.fa-facebook-f
+											li
+												a(href="#")
+													i.fab.fa-twitter
+											li
+												a(href="#")
+													i.fab.fa-dribbble
+											li
+												a(href="#")
+													i.fab.fa-instagram
+						// Speaker Block Four
+						.speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+							.inner-box
+								.image-box
+									figure.image-box
+										img(src="images/resource/speaker-3-6.jpg" alt="")
+								.info-box
+									.inner
+										h5.name
+											a(href="#") Antonio Hamilton
+										span.designation Founder of ceo
+										ul.social-links
+											li
+												a(href="#")
+													i.fab.fa-facebook-f
+											li
+												a(href="#")
+													i.fab.fa-twitter
+											li
+												a(href="#")
+													i.fab.fa-dribbble
+											li
+												a(href="#")
+													i.fab.fa-instagram
+			// End Speakers Section Four
+			// Main Footer
+			.main-footer.style-two
+				.anim-icons
+					span.icon.icon-twist-line-1.wow.zoomIn
+					span.icon.icon-circle-6.wow.zoomIn(data-wow-delay="400ms")
+					span.icon.icon-twist-line-2.wow.zoomIn(data-wow-delay="800ms")
+					span.icon.icon-circle-8.wow.zoomIn(data-wow-delay="1200ms")
+				.auto-container
+					.sec-title.text-center
+						span.title Get The Latest Offers
+						h2 Subscribe To Newsletter
+					// Newsletter Form
+					.newsletter-form
+						form(method="post" action="http://sitetemplate.demo.ithemeslab.com/fizcon/blog.html")
+							.form-group
+								input(type="email" name="field-name" value="" placeholder="email@gmail.com" required="")
+								button.theme-btn.btn-style-three(type="submit") Send
+					// Social Links
+					.social-links
+						ul
+							li
+								a(href="#")
+									span.fab.fa-facebook-f
+							li
+								a(href="#")
+									span.fab.fa-twitter
+							li
+								a(href="#")
+									span.fab.fa-dribbble
+							li
+								a(href="#")
+									span.fab.fa-instagram
+							li
+								a(href="#")
+									span.fab.fa-linkedin-in
+					// Footer Bottom
+					.footer-bottom.clearfix
+						.copyright Copyright © 2019. All Rights Reserved.
+						ul
+							li We Accept 
+							li
+								a(href="#")
+									img(src="images/icons/cart-1.jpg" alt="")
+							li
+								a(href="#")
+									img(src="images/icons/cart-2.jpg" alt="")
+							li
+								a(href="#")
+									img(src="images/icons/cart-3.jpg" alt="")
+							li
+								a(href="#")
+									img(src="images/icons/cart-4.jpg" alt="")
+					// Copyright
+			// End Footer
+		// End pagewrapper
+		// Scroll to top
+		.scroll-to-top.scroll-to-target(data-target="html")
+			span.fa.fa-angle-double-up
+		script(data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js")
+		script(src="js/jquery.js")
+		script(src="js/popper.min.js")
+		script(src="js/bootstrap.min.js")
+		script(src="js/jquery-ui.js")
+		script(src="js/jquery.mCustomScrollbar.concat.min.js")
+		script(src="js/jquery.fancybox.js")
+		script(src="js/magnific-popup.min.js")
+		script(src="js/appear.js")
+		script(src="js/owl.js")
+		script(src="js/wow.js")
+		script(src="js/countdown.js")
+		script(src="js/script.js")
+	// Mirrored from sitetemplate.demo.ithemeslab.com/fizcon/speakers.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Aug 2019 11:21:54 GMT

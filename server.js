@@ -16,6 +16,10 @@ app.get('/',(req,res)=>{
 	res.render('index')
 })
 
+app.get('/speakers',(req,res)=>{
+	res.render('speakers')
+})
+
 // ---
 
 app.listen(3000, err => {
