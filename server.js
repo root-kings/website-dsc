@@ -28,6 +28,10 @@ app.get('/about',(req,res)=>{
 	res.render('about')
 })
 
+app.get('/schedule',(req,res)=>{
+	res.render('schedule')
+})
+
 // ---
 
 app.listen(3000, err => {
