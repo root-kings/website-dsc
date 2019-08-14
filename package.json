@@ -4,9 +4,9 @@
   "main": "server.js",
   "repository": "https://github.com/root-kings/website-gdc.git",
   "author": "krushndayshmookh <krushndayshmookh@gmail.com>",
-  "scripts":{
-    "start":"node server.js",
-    "dev":"nodemon server.js"
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "license": "MIT",
   "private": false,
@@ -15,5 +15,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.6.8",
     "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
