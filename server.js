@@ -20,6 +20,10 @@ app.get('/speakers',(req,res)=>{
 	res.render('speakers')
 })
 
+app.get('/gallery',(req,res)=>{
+	res.render('gallery')
+})
+
 // ---
 
 app.listen(3000, err => {
