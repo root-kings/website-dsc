@@ -14,7 +14,9 @@ Official website repository
 
 * `npm install`
 
-* `node server.js`
+* `npm start`
+
+* for development server run, `npm run dev`
 
 The server should be listening at port `3000`.
 
