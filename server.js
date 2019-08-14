@@ -34,7 +34,7 @@ app.get('/schedule',(req,res)=>{
 
 // ---
 
-app.listen(3000, err => {
+app.listen(PORT, err => {
 	if (err) return console.error(err)
 
 	console.log(`Server listening on port ${PORT}.`)
