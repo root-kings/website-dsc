@@ -1,352 +1,307 @@
-doctype html
-html
-	//- Mirrored from sitetemplate.demo.ithemeslab.com/fizcon/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Aug 2019 11:19:43 GMT
-	head
-		meta(charset="utf-8")
-		title Fizcon -  HTML Template | About Us
-		//- Stylesheets
-		link(href="css/bootstrap.css" rel="stylesheet")
-		link(href="css/style.css" rel="stylesheet")
-		link(href="css/responsive.css" rel="stylesheet")
-		link(rel="shortcut icon" href="images/favicon.png" type="image/x-icon")
-		link(rel="icon" href="images/favicon.png" type="image/x-icon")
-		//- Responsive
-		meta(http-equiv="X-UA-Compatible" content="IE=edge")
-		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
-		//if lt IE 9
-			script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js")
-		//if lt IE 9
-			script(src="js/respond.js")
-	body
-		.page-wrapper
-			//- Preloader
-			.preloader
-			include components/header.pug
+extends components/layout.pug
 
-			//- Form Back Drop
-			.form-back-drop
-			include components/hiddenbar.pug
-
-			//- Page Title
-			section.page-title(style="background-image:url(images/background/2.jpg);")
-				.auto-container
-					span.float-text About Us
-					h1 About Us
-					ul.bread-crumb.clearfix
-						li
-							a(href="index-2.html") Home 
-						li About
-			//- End Page Title
-			//- About Section
-			section.about-section
-				.anim-icons
-					span.icon.icon-cross-1
-					span.icon.icon-circle-9
-				span.float-text About The
-				.auto-container
-					.sec-title
-						h2 About The Theme
-					.about-carousel.owl-carousel.owl-theme
-						//- Slide Item
-						.slide-item.clearfix
-							.image-box
-								figure.image
-									img(src="images/resource/about-img-2.jpg" alt="")
-							.content-box
-								.inner-box
-									span.title Research & Concept
-									h3 Pixel Pioneers Belfast 2019
-									.text
-										| Pixel Pioneers, a one-day conference for web and UX designers and front-end developers, will take place on the 23rd of November 2019 in Belfast.
-									.btn-box
-										a.theme-btn.btn-style-one(href="contact.html") Register Now
-						//- Slide Item
-						.slide-item.clearfix
-							.image-box
-								figure.image
-									img(src="images/resource/about-img-1.jpg" alt="")
-							.content-box
-								.inner-box
-									span.title Research & Concept
-									h3 Pixel Pioneers Belfast 2019
-									.text
-										| Pixel Pioneers, a one-day conference for web and UX designers and front-end developers, will take place on the 23rd of November 2019 in Belfast.
-									.btn-box
-										a.theme-btn.btn-style-one(href="contact.html") Register Now
-			//- End About Section
-			//- Fun Fact Section
-			section.fun-fact-section-two
-				.anim-icons
-					span.icon.icon-circle-10
-					span.icon.icon-twist-line-3
-				.auto-container
-					.fact-counter
-						.row.clearfix
-							//- Column
-							.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp
-								.count-box
-									span.icon.flaticon-mug
-									span.count-text(data-speed="3000" data-stop="70") 0
-									| +
-									h4.counter-title
-										| Usefull 
-										br
-										| Sessions
-							//- Column
-							.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
-								.count-box
-									span.icon.flaticon-launch
-									span.count-text(data-speed="3000" data-stop="65") 0
-									| +
-									h4.counter-title
-										| International 
-										br
-										| Sponsors
-							//- Column
-							.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
-								.count-box
-									span.icon.flaticon-lady
-									span.count-text(data-speed="3000" data-stop="6") 0
-									| k+
-									h4.counter-title
-										| Regular 
-										br
-										| Crowd
-							//- Column
-							.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="1200ms")
-								.count-box
-									span.icon.flaticon-support-1
-									span.count-text(data-speed="3000" data-stop="35") 0
-									| +
-									h4.counter-title
-										| Our Visionary 
-										br
-										| Speakers
-			//- End Fun Fact Section
-			//- About Event
-			section.about-event
-				.anim-icons
-					span.icon.icon-circle-13
-					span.icon.icon-circle-14
-					span.icon.icon-circle-14
-					span.icon.icon-triangle-1
-					span.icon.icon-triangle-2
-				.auto-container
-					.row
-						//- Content Column
-						.content-column.col-lg-6.col-md-12.col-sm-12
-							.inner-column
-								.sec-title
-									h2 Join the biggest event  in 2019 with experienced Speaker.
-								.info-box
-									h5 Interactive Sessions
-									.text
-										| Phasellus et elit eget purus efficitur dignissim.
-										br
-										|  Sed eget pretium quam, non rutrum nisi.
-								.info-box
-									h5 Popular Speakers
-									.text
-										| Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi. Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi.
-						//- Image Column
-						.image-column.col-lg-6.col-md-12.col-sm-12
-							.image-box.wow.fadeInRight
-								figure.image-box
-									img(src="images/resource/image-2.png" alt="")
-			//- End About Event
-			//- Speakers Section Two
-			section.speakers-section-two.style-two.alternate-2
-				span.float-text Event Speaker
-				.auto-container
-					.sec-title
-						h2 Event Speakers
-					.row
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-1.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-1.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Shaunta Deni
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-2.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-2.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Olivia Jenelia
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-3.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-.html" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Nona Buetti
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="1200ms")
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-4.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-4.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Vashti Dorn
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-5.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-5.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Marta Kemnitz
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-6.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-6.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Socorro Spielman
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-7.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-7.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Buffy Alger
-										span.designation General Manager
-						//- Feature Block
-						.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="1200ms")
-							.image-box
-								figure.image
-									img(src="images/resource/speaker-8.jpg" alt="")
-								.overlay-box
-									a.link.lightbox-image(href="images/resource/speaker-8.jpg" data-fancybox="speakers")
-										span.flaticon-add-1
-									.info
-										h5.name Gaynelle Guyett
-										span.designation General Manager
-			//- End Speakers Section
-			//- Sponsor Section
-			section.sponsor-section.style-two(style="background-image: url(images/background/1.jpg);")
-				span.float-text Our Sponsor
-				.auto-container
-					.row
-						.client-logo.col-lg-3.col-md-6.col-sm-12
+block content
+	//- Page Title
+	section.page-title(style="background-image:url(images/background/2.jpg);")
+		.auto-container
+			span.float-text About Us
+			h1 About Us
+			ul.bread-crumb.clearfix
+				li
+					a(href="index-2.html") Home 
+				li About
+	//- End Page Title
+	//- About Section
+	section.about-section
+		.anim-icons
+			span.icon.icon-cross-1
+			span.icon.icon-circle-9
+		span.float-text About The
+		.auto-container
+			.sec-title
+				h2 About The Theme
+			.about-carousel.owl-carousel.owl-theme
+				//- Slide Item
+				.slide-item.clearfix
+					.image-box
+						figure.image
+							img(src="images/resource/about-img-2.jpg" alt="")
+					.content-box
+						.inner-box
+							span.title Research & Concept
+							h3 Pixel Pioneers Belfast 2019
+							.text
+								| Pixel Pioneers, a one-day conference for web and UX designers and front-end developers, will take place on the 23rd of November 2019 in Belfast.
+							.btn-box
+								a.theme-btn.btn-style-one(href="contact.html") Register Now
+				//- Slide Item
+				.slide-item.clearfix
+					.image-box
+						figure.image
+							img(src="images/resource/about-img-1.jpg" alt="")
+					.content-box
+						.inner-box
+							span.title Research & Concept
+							h3 Pixel Pioneers Belfast 2019
+							.text
+								| Pixel Pioneers, a one-day conference for web and UX designers and front-end developers, will take place on the 23rd of November 2019 in Belfast.
+							.btn-box
+								a.theme-btn.btn-style-one(href="contact.html") Register Now
+	//- End About Section
+	//- Fun Fact Section
+	section.fun-fact-section-two
+		.anim-icons
+			span.icon.icon-circle-10
+			span.icon.icon-twist-line-3
+		.auto-container
+			.fact-counter
+				.row.clearfix
+					//- Column
+					.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp
+						.count-box
+							span.icon.flaticon-mug
+							span.count-text(data-speed="3000" data-stop="70") 0
+							| +
+							h4.counter-title
+								| Usefull 
+								br
+								| Sessions
+					//- Column
+					.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
+						.count-box
+							span.icon.flaticon-launch
+							span.count-text(data-speed="3000" data-stop="65") 0
+							| +
+							h4.counter-title
+								| International 
+								br
+								| Sponsors
+					//- Column
+					.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
+						.count-box
+							span.icon.flaticon-lady
+							span.count-text(data-speed="3000" data-stop="6") 0
+							| k+
+							h4.counter-title
+								| Regular 
+								br
+								| Crowd
+					//- Column
+					.counter-column.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="1200ms")
+						.count-box
+							span.icon.flaticon-support-1
+							span.count-text(data-speed="3000" data-stop="35") 0
+							| +
+							h4.counter-title
+								| Our Visionary 
+								br
+								| Speakers
+	//- End Fun Fact Section
+	//- About Event
+	section.about-event
+		.anim-icons
+			span.icon.icon-circle-13
+			span.icon.icon-circle-14
+			span.icon.icon-circle-14
+			span.icon.icon-triangle-1
+			span.icon.icon-triangle-2
+		.auto-container
+			.row
+				//- Content Column
+				.content-column.col-lg-6.col-md-12.col-sm-12
+					.inner-column
+						.sec-title
+							h2 Join the biggest event  in 2019 with experienced Speaker.
+						.info-box
+							h5 Interactive Sessions
+							.text
+								| Phasellus et elit eget purus efficitur dignissim.
+								br
+								|  Sed eget pretium quam, non rutrum nisi.
+						.info-box
+							h5 Popular Speakers
+							.text
+								| Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi. Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi.
+				//- Image Column
+				.image-column.col-lg-6.col-md-12.col-sm-12
+					.image-box.wow.fadeInRight
+						figure.image-box
+							img(src="images/resource/image-2.png" alt="")
+	//- End About Event
+	//- Speakers Section Two
+	section.speakers-section-two.style-two.alternate-2
+		span.float-text Event Speaker
+		.auto-container
+			.sec-title
+				h2 Event Speakers
+			.row
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-1.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-1.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Shaunta Deni
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-2.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-2.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Olivia Jenelia
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-3.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-.html" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Nona Buetti
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="1200ms")
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-4.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-4.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Vashti Dorn
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-5.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-5.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Marta Kemnitz
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-6.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-6.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Socorro Spielman
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-7.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-7.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Buffy Alger
+								span.designation General Manager
+				//- Feature Block
+				.speaker-block-two.col-lg-3.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="1200ms")
+					.image-box
+						figure.image
+							img(src="images/resource/speaker-8.jpg" alt="")
+						.overlay-box
+							a.link.lightbox-image(href="images/resource/speaker-8.jpg" data-fancybox="speakers")
+								span.flaticon-add-1
+							.info
+								h5.name Gaynelle Guyett
+								span.designation General Manager
+	//- End Speakers Section
+	//- Sponsor Section
+	section.sponsor-section.style-two(style="background-image: url(images/background/1.jpg);")
+		span.float-text Our Sponsor
+		.auto-container
+			.row
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-1.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-2.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-3.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-4.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-5.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-6.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-7.png" alt="")
+				.client-logo.col-lg-3.col-md-6.col-sm-12
+					figure.image
+						a(href="#")
+							img(src="images/clients/2-8.png" alt="")
+	//- End Sponsor Section
+	//- Location Section Two
+	section.location-section-two.style-two
+		.anim-icons
+			span.icon.icon-cross-1
+			span.icon.icon-circle-12
+			span.icon.icon-circle-9
+			span.icon.icon-twist-line-3
+		span.float-text Get Directio
+		.auto-container
+			.sec-title
+				h2 Locations
+			.row
+				//- Info Block
+				.info-block.col-lg-4.col-md-6.col-sm-12.wow.fadeInUp
+					.inner-box
+						.image-box
 							figure.image
-								a(href="#")
-									img(src="images/clients/2-1.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
+								img(src="images/resource/vactor-1.png" alt="")
+						.info-box
+							h5 Conference Location
+							.text
+								| Washington State Convention Center 705 Pike Street ,Seattle, WA 98101 Phone: 206-694-5000
+				//- Info Block
+				.info-block.col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
+					.inner-box
+						.image-box
 							figure.image
-								a(href="#")
-									img(src="images/clients/2-2.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
+								img(src="images/resource/vactor-2.png" alt="")
+						.info-box
+							h5 Hotel Information
+							.text
+								| Washington State Convention Center 705 Pike Street ,Seattle, WA 98101 Phone: 206-694-5000
+				//- Info Block
+				.info-block.col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
+					.inner-box
+						.image-box
 							figure.image
-								a(href="#")
-									img(src="images/clients/2-3.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
-							figure.image
-								a(href="#")
-									img(src="images/clients/2-4.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
-							figure.image
-								a(href="#")
-									img(src="images/clients/2-5.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
-							figure.image
-								a(href="#")
-									img(src="images/clients/2-6.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
-							figure.image
-								a(href="#")
-									img(src="images/clients/2-7.png" alt="")
-						.client-logo.col-lg-3.col-md-6.col-sm-12
-							figure.image
-								a(href="#")
-									img(src="images/clients/2-8.png" alt="")
-			//- End Sponsor Section
-			//- Location Section Two
-			section.location-section-two.style-two
-				.anim-icons
-					span.icon.icon-cross-1
-					span.icon.icon-circle-12
-					span.icon.icon-circle-9
-					span.icon.icon-twist-line-3
-				span.float-text Get Directio
-				.auto-container
-					.sec-title
-						h2 Locations
-					.row
-						//- Info Block
-						.info-block.col-lg-4.col-md-6.col-sm-12.wow.fadeInUp
-							.inner-box
-								.image-box
-									figure.image
-										img(src="images/resource/vactor-1.png" alt="")
-								.info-box
-									h5 Conference Location
-									.text
-										| Washington State Convention Center 705 Pike Street ,Seattle, WA 98101 Phone: 206-694-5000
-						//- Info Block
-						.info-block.col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="400ms")
-							.inner-box
-								.image-box
-									figure.image
-										img(src="images/resource/vactor-2.png" alt="")
-								.info-box
-									h5 Hotel Information
-									.text
-										| Washington State Convention Center 705 Pike Street ,Seattle, WA 98101 Phone: 206-694-5000
-						//- Info Block
-						.info-block.col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="800ms")
-							.inner-box
-								.image-box
-									figure.image
-										img(src="images/resource/vactor-3.png" alt="")
-								.info-box
-									h5 Airport Information
-									.text
-										| Washington State Convention Center 705 Pike Street ,Seattle, WA 98101 Phone: 206-694-5000
-			//- End Location Section
-			include components/footer.pug
-			
-		//- End pagewrapper
-		//- Scroll to top
-		.scroll-to-top.scroll-to-target(data-target="html")
-			span.fa.fa-angle-double-up
-		script(data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js")
-		script(src="js/jquery.js")
-		script(src="js/popper.min.js")
-		script(src="js/bootstrap.min.js")
-		script(src="js/jquery-ui.js")
-		script(src="js/jquery.mCustomScrollbar.concat.min.js")
-		script(src="js/jquery.fancybox.js")
-		script(src="js/appear.js")
-		script(src="js/owl.js")
-		script(src="js/wow.js")
-		script(src="js/countdown.js")
-		script(src="js/script.js")
-	//- Mirrored from sitetemplate.demo.ithemeslab.com/fizcon/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Aug 2019 11:19:53 GMT
+								img(src="images/resource/vactor-3.png" alt="")
+						.info-box
+							h5 Airport Information
+							.text
+								| Washington State Convention Center 705 Pike Street ,Seattle, WA 98101 Phone: 206-694-5000
+	//- End Location Section
