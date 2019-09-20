@@ -1,0 +1,36 @@
+mixin member(name, designation, photo, linkedin, github, twitter, stackoverflow, facebook, instagram )
+    .speaker-block-four.col-lg-4.col-md-6.col-sm-12.wow.zoomIn
+        .inner-box
+            .image-box
+                figure.image-box
+                    img(src=photo alt="")
+            .info-box
+                .inner
+                    h5.name
+                        a(href="#!")= name
+                    span.designation= designation
+                    ul.social-links
+                        if linkedin
+                            li
+                                a(href=linkedin)
+                                    i.fab.fa-linkedin
+                        if twitter
+                            li
+                                a(href=twitter)
+                                    i.fab.fa-twitter
+                        if github
+                            li
+                                a(href=github)
+                                    i.fab.fa-github
+                        if stackoverflow
+                            li
+                                a(href=stackoverflow)
+                                    i.fab.fa-stack-overflow
+                        if instagram
+                            li
+                                a(href=instagram)
+                                    i.fab.fa-instagram
+                        if facebook
+                            li
+                                a(href=facebook)
+                                    i.fab.fa-facebook
