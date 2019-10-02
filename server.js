@@ -20,8 +20,8 @@ app.get('/speakers',(req,res)=>{
 	res.render('speakers')
 })
 
-app.get('/gallery',(req,res)=>{
-	res.render('gallery')
+app.get('/events',(req,res)=>{
+	res.render('events')
 })
 
 app.get('/about',(req,res)=>{

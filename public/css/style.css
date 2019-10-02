@@ -5863,7 +5863,7 @@ img{
 	margin-bottom: 18px;
 }
 
-.news-block h4 a{
+.news-block h3 a, .news-block h4 a{
 	color: #12114a;
 	display: inline-block;
 	-webkit-transition: all 300ms ease;

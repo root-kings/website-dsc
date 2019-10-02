@@ -1,0 +1,20 @@
+//- Event block
+    
+mixin event(title, image, date, speaker, description)
+    .news-block.col-lg-6.col-md-6.col-sm-12.wow.fadeInUp
+        .inner-box
+            .image-box
+                figure.image
+                    a(href="#")
+                        img(src=image alt="")
+            .lower-content
+                .info-box
+                    span.date= speaker
+                    span.author= date
+                h3
+                    a(href="#")= title
+                .text= description
+                .link-box
+                    a(href="blog-single.html")
+                        span.fa.fa-angle-right
+                        | Certificates
