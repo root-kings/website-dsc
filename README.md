@@ -1,4 +1,4 @@
-# website-gdc
+# website-dsc
 
 ## Project setup
 ```
