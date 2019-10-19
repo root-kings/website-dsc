@@ -2,15 +2,15 @@
   #layout
     header
       nav
-        .nav-wrapper.blue-grey
-          a.brand-logo(href="#") DSC GHRCE
-          a.sidenav-trigger(href="#" data-target="mobile-demo")
+        .nav-wrapper.white
+          a.brand-logo.black-text(href="#") DSC GHRCE
+          a.sidenav-trigger.black-text(href="#" data-target="mobile-demo")
             i.material-icons menu
           ul#nav-mobile.right.hide-on-med-and-down
             li
-              router-link(:to="'/home'") Home
+              router-link.black-text(:to="'/home'") Home
             li
-              router-link(:to="'/about'") About
+              router-link.black-text(:to="'/about'") About
     
       ul#mobile-demo.sidenav
         li
@@ -34,3 +34,19 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+@media only screen and (min-width: 601px) {
+  nav,
+  nav .nav-wrapper i,
+  nav a.sidenav-trigger,
+  nav a.sidenav-trigger i {
+    height: 48px;
+    line-height: 48px;
+  }
+
+  .brand-logo {
+    margin-left: 16px;
+  }
+}
+</style>
