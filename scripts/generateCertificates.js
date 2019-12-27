@@ -9,7 +9,7 @@ const Certificate = require('../models/certificate')
 const DBPORT = process.env.MONGODB_URI
 
 async function generateCertificates(event, incharge, date, csvconf) {
-	await mongoose.connect(DBPORT, { useUnifiedTopology: true, useNewUrlParser: true }, err => {
+	await mongoose.connect(DBPORT, err => {
 		if (err) throw err
 		console.log('Connected to DB.')
 	})
@@ -28,7 +28,7 @@ async function generateCertificates(event, incharge, date, csvconf) {
 			let newCertificate = new Certificate({
 				name: data[csvconf.namefield].toUpperCase(),
 				event: event,
-				email: data[csvconf.emailfield],
+// 				email: data[csvconf.emailfield],
 				incharge: { name: incharge },
 				date: new moment(date, 'YYYY/MM/DD')
 			})
@@ -38,40 +38,14 @@ async function generateCertificates(event, incharge, date, csvconf) {
 			Certificate.insertMany(certificates, (err, result) => {
 				if (err) throw err
 				mongoose.disconnect()
-				console.log(`Generated certificates for ${event}.`)
+				console.log(`Generated ${result.length} certificates for ${event}.`)
 			})
 		})
 }
 
 // Sample Usage -----
-// generateCertificates('Game Development Workshop', 'Krushn Dayshmookh', '2019/03/09', { csvpath: __dirname + '/gd.csv', namefield: 'Name', emailfield: 'Username' })
+// generateCertificates('Flutter Interact', 'Krushn Dayshmookh', '2019/03/09', { csvpath: __dirname + '/flutter-interact.csv', namefield: 'Name', emailfield: 'Username' })
 
-generateCertificates('Magic of Firebase', 'Roshan Paturkar', '2019/09/26', { csvpath: __dirname + '/../data/magicOfFirebase.csv', namefield: 'Name', emailfield: 'Email' })
+generateCertificates('Flutter Interact', 'Mrunalsingh Zire', '2019/12/20', { csvpath: __dirname + '/flutter-interact.csv', namefield: 'Name'})
 
 exports.generateCertificates = generateCertificates
-
-async function deleteByDate(date) {
-	await mongoose.connect(DBPORT, { useUnifiedTopology: true, useNewUrlParser: true }, err => {
-		if (err) throw err
-		console.log('Connected to DB.')
-	})
-
-	mongoose.Promise = global.Promise
-	var db = mongoose.connection
-	db.on('error', console.error.bind(console, 'MongoDB connection error:'))
-
-	Certificate.deleteMany(
-		{
-			date: new moment(date, 'YYYY/MM/DD')
-		},
-		(err, result) => {
-			if (err) throw err
-			mongoose.disconnect()
-			console.log(`Deleted certificates.`)
-		}
-	)
-}
-
-// deleteByDate('2019/09/26')
-
-// console.log(new moment('2019/09/12', 'YYYY/MM/DD'))
